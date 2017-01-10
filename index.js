@@ -27,6 +27,16 @@ alexaApp.intent("getIdea", {
   }
 );
 
+alexaApp.intent("shipIt", {
+    "utterances": [
+      "ship it"
+    ]
+  },
+  function(request, response) {
+    response.say("Smashed it!");
+  }
+);
+
 alexaApp.express(app, "/echo/");
 
 app.listen(PORT);
