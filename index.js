@@ -17,7 +17,6 @@ alexaApp.launch(function(request, response) {
 alexaApp.dictionary = { "names": ["matt", "joe", "bob", "bill", "mary", "jane", "dawn"] };
 
 alexaApp.intent("getIdea", {
-    "slots": { "NAME": "LITERAL" },
     "utterances": [
       "give me an idea"
     ]
