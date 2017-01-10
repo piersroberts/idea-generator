@@ -69,7 +69,7 @@ alexaApp.intent("getIdea", {
     ]
   },
   function(request, response) {
-    response.say("How about a "+words.types[0]+" "+words.types[1]+" "+words.types[0]+" "+words.variations[0]);
+    response.say("How about a "+words.types[0]+" "+words.types[1]+" "+words.nouns[0]+" "+words.variations[0]);
   }
 );
 
