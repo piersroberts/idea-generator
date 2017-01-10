@@ -66,7 +66,9 @@ let words = {
 		'hands free',
 		'static',
 		'fully aware',
-		'experimental'
+		'experimental',
+		'automated',
+		'crypto currency'
 	],
 	nouns:[
 		'webcam',
@@ -105,7 +107,20 @@ let words = {
 		'thing for dads',
 		'pattern library',
 		'Spotify playlist',
-		'food alternative'
+		'food alternative',
+		'projector',
+		'full body scanner',
+		'airport security system',
+		'oilrig visualizer',
+		'winamp plugin',
+		'control pad',
+		'bookcase',
+		'self driving car',
+		'cash card',
+		'firewall',
+		'parody twitter account',
+		'website like tinder',
+		'app similar to tripadvisor'
 	],
 	variations:[
 		'written in elm',
@@ -154,7 +169,9 @@ let words = {
 		'but you mustn\'t touch it',
 		'for hospitals and hotels',
 		'that knows where you are going to sit',
-		'that breaks down harmlessly in stomach acids'
+		'that breaks down harmlessly in stomach acids',
+		'compatible with Lego',
+		'for meeting new people'
 	],
 }
 
