@@ -68,7 +68,8 @@ let words = {
 		'fully aware',
 		'experimental',
 		'automated',
-		'crypto currency'
+		'crypto currency',
+		'retro'
 	],
 	nouns:[
 		'webcam',
