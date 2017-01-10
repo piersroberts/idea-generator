@@ -81,7 +81,25 @@ let words = {
 		'really really tall',
 		'supercooled',
 		'single use',
-		'biodegradable'
+		'biodegradable',
+		'good value',
+		'expensive',
+		'limited edition',
+		'intentionally abusive',
+		'foreign',
+		'self-censoring',
+		'sleevless',
+		'family-guy branded',
+		'white-label',
+		'unbranded',
+		'shrek endorsed',
+		'friends themed',
+		'spooky',
+		'talking',
+		'vampire based',
+		'tasteless',
+		'glittery',
+		'organic'
 	],
 	nouns:[
 		'webcam',
@@ -140,7 +158,8 @@ let words = {
 		'camera',
 		'record player',
 		'audio format',
-		'teapot'
+		'teapot',
+		'set top box'
 	],
 	variations:[
 		'written in elm',
@@ -204,7 +223,9 @@ let words = {
 		'that beeps when it\'s done',
 		'for when there\'s a fire',
 		'to get rid of that mayonaise smell',
-		'but without that mayonaise smell'
+		'but without that mayonaise smell',
+		'for poor people',
+		'to organise your steelbook blu-rays'
 	],
 }
 
