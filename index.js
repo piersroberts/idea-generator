@@ -71,7 +71,6 @@ let words = {
 		'crypto currency',
 		'retro',
 		'deep learning',
-		'prettier',
 		'self-driving',
 		'compressed',
 		'condensed',
@@ -99,7 +98,9 @@ let words = {
 		'vampire based',
 		'tasteless',
 		'glittery',
-		'organic'
+		'organic',
+		'consumer facing',
+		'foggy'
 	],
 	nouns:[
 		'webcam',
@@ -108,7 +109,6 @@ let words = {
 		'drone delivery service',
 		'videogame',
 		'3d printer',
-		'pizzagate',
 		'iOS app',
 		'funk machine',
 		'virtual pet',
@@ -159,7 +159,8 @@ let words = {
 		'record player',
 		'audio format',
 		'teapot',
-		'set top box'
+		'set top box',
+		'e-card'
 	],
 	variations:[
 		'written in elm',
@@ -172,7 +173,7 @@ let words = {
 		'integrated in to a suit of armour',
 		'written in swift',
 		'written in react native',
-		'with a windows 10 live tile',
+		'for Windows 10',
 		'for banks',
 		'that lives in your garden',
 		'designed by a famous racing car driver',
@@ -194,7 +195,7 @@ let words = {
 		'for grieving widows',
 		'that cleans and straightens your teeth',
 		'run from a raspberry pi inside a top hat',
-		'and you can even eat the packaging',
+		'- and you can even eat the packaging',
 		'that remembers where you left off',
 		'that fits neatly on the outside of your pants',
 		'that gets bigger in water',
@@ -225,7 +226,9 @@ let words = {
 		'to get rid of that mayonaise smell',
 		'but without that mayonaise smell',
 		'for poor people',
-		'to organise your steelbook blu-rays'
+		'to organise your steelbook blu-rays',
+		'but sings happy birthday',
+		'with a headphone socket'
 	],
 }
 
