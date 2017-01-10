@@ -35,12 +35,24 @@ let words = {
 		'slightly invisble',
 		'cheeky',
 		'hololens',
-		'securtiy focused',
+		'security focused',
 		'big pharma',
 		'sourdough',
 		'triple filtered',
 		'coffee flavoured',
-		'48k'
+		'48k',
+		'temperature controlled',
+		'sweet',
+		'real-life',
+		'waterproof',
+		'fruit themed',
+		'premium',
+		'dumbed down',
+		'scalable',
+		'social',
+		'mobile',
+		'disruptive',
+		'hydrophobic'
 	],
 	nouns:[
 		'instagram',
@@ -58,16 +70,28 @@ let words = {
 		'fancy shirt',
 		'fishing net',
 		'email campaign',
-		'epsisode or House',
+		'episode of House',
 		'motorboat',
 		'innovation team simulator',
 		'pizza oven',
 		'apple TV app',
 		'e-cig vapour',
-		'raspberry pi clone'
+		'raspberry pi clone',
+		'slackbot',
+		'photoshop plugin',
+		'internet website',
+		'4 0 4 page',
+		'pop up shop',
+		'experience',
+		'vr experience',
+		'think piece',
+		'white paper',
+		'webinar',
+		'thing for dads',
+		'pattern library'
 	],
 	variations:[
-		'writen in elm',
+		'written in elm',
 		'but with beacons',
 		'on a USB stick',
 		'built for quantom computers',
@@ -82,9 +106,38 @@ let words = {
 		'that lives in your garden',
 		'designed by a famous racing car driver',
 		'as a service',
-		'with touch id',
-		'running on Tizen'
+		'with touch I D',
+		'running on Tizen',
+		'but for dogs and horses and things like that',
+		'that never gets wet',
+		'. jon shave edition',
+		'that frightens away bees',
+		'but more premium',
+		'for businesses',
+		'that your mum could use',
+		'simulator',
+		'written by my mates sister',
+		'art book',
+		'that attracts all types of bees',
+		'that calls the police',
+		'for grieving widows',
+		'that cleans and straightens your teeth',
+		'run from a raspberry pi inside a top hat',
+		'and you can even eat the packaging',
+		'that remembers where you left off',
+		'that fits neatly on the outside of your pants',
+		'that gets bigger in water',
+		'that fits neatly between two vertebrae',
+		'narrated by the cast of Seinfeld'
 	],
+}
+
+function buildTextResponse(){
+  	let types = words.types.sort( () => 0.5 - Math.random());
+  	let nouns = words.nouns.sort( () => 0.5 - Math.random());
+  	let variations = words.variations.sort( () => 0.5 - Math.random());
+    let textResponse = "How about a "+types[0]+", "+types[1]+" "+nouns[0]+" "+variations[0]+"?";
+    return textResponse;
 }
 
 alexaApp.intent("getIdea", {
@@ -93,10 +146,7 @@ alexaApp.intent("getIdea", {
     ]
   },
   function(request, response) {
-  	let types = words.types.sort( () => 0.5 - Math.random());
-  	let nouns = words.nouns.sort( () => 0.5 - Math.random());
-  	let variations = words.variations.sort( () => 0.5 - Math.random());
-    response.say("How about a "+types[0]+" "+types[1]+" "+nouns[0]+" "+variations[0]);
+	response.say(buildTextResponse());
   }
 );
 
@@ -112,5 +162,9 @@ alexaApp.intent("shipIt", {
 
 alexaApp.express(app, "/echo/");
 
+app.get('/random-idea', function (request, response) {
+  response.send(buildTextResponse());
+})
+
 app.listen(PORT);
-console.log("Listening on port " + PORT + ", try http://localhost:" + PORT + "/echo/test");
+console.log("Listening on port " + PORT);
