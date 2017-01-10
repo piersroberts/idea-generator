@@ -228,7 +228,9 @@ let words = {
 		'for poor people',
 		'to organise your steelbook blu-rays',
 		'but sings happy birthday',
-		'with a headphone socket'
+		'with a headphone socket',
+		'for road warriors',
+		'for pets'
 	],
 }
 
