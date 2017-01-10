@@ -200,7 +200,9 @@ let words = {
 		'that won’t leave you, like she did',
 		'for first timers',
 		'that self destructs after one use',
-		'that makes you laugh, but also learn'
+		'that makes you laugh, but also learn',
+		'that beeps when it\'s done',
+		'for when there\'s a fire'
 	],
 }
 
