@@ -9,7 +9,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.set("view engine", "ejs");
 
-var alexaApp = new alexa.app("test");
+var alexaApp = new alexa.app("innovator");
+
 alexaApp.launch(function(request, response) {
   response.say("You launched the app!");
 });
