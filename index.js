@@ -32,7 +32,7 @@ let words = {
 		'gamified',
 		'native',
 		'web 2.0',
-		'slightly invisble',
+		'nearly invisble',
 		'cheeky',
 		'hololens',
 		'security focused',
@@ -52,9 +52,24 @@ let words = {
 		'social',
 		'mobile',
 		'disruptive',
-		'hydrophobic'
+		'hydrophobic',
+		'360 degree',
+		'weaponized',
+		'shatterproof',
+		'all singing, all dancing',
+		'low energy',
+		'rechargable',
+		'crowdfunded',
+		'vegan',
+		'jumbo',
+		'in car',
+		'hands free',
+		'static',
+		'fully aware',
+		'experimental'
 	],
 	nouns:[
+		'webcam',
 		'instagram',
 		'social currency',
 		'drone delivery service',
@@ -88,13 +103,15 @@ let words = {
 		'white paper',
 		'webinar',
 		'thing for dads',
-		'pattern library'
+		'pattern library',
+		'Spotify playlist',
+		'food alternative'
 	],
 	variations:[
 		'written in elm',
 		'but with beacons',
 		'on a USB stick',
-		'built for quantom computers',
+		'built for quantum computers',
 		'to run on smart fridges',
 		'but for girls',
 		'without all the scandal',
@@ -128,7 +145,16 @@ let words = {
 		'that fits neatly on the outside of your pants',
 		'that gets bigger in water',
 		'that fits neatly between two vertebrae',
-		'narrated by the cast of Seinfeld'
+		'narrated by the cast of Seinfeld',
+		'that always know where you are',
+		'that tracks your purchases',
+		'like Nick Cage had in that film',
+		'with an interface like the one in minority report',
+		'rendering the whole thing pointless',
+		'but you mustn\'t touch it',
+		'for hospitals and hotels',
+		'that knows where you are going to sit',
+		'that breaks down harmlessly in stomach acids'
 	],
 }
 
@@ -136,7 +162,7 @@ function buildTextResponse(){
   	let types = words.types.sort( () => 0.5 - Math.random());
   	let nouns = words.nouns.sort( () => 0.5 - Math.random());
   	let variations = words.variations.sort( () => 0.5 - Math.random());
-    let textResponse = "How about a "+types[0]+", "+types[1]+" "+nouns[0]+" "+variations[0]+"?";
+    let textResponse = "How about a "+types[0]+", "+types[1]+", "+nouns[0]+" "+variations[0]+"?";
     return textResponse;
 }
 
