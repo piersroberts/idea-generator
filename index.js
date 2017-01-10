@@ -36,7 +36,11 @@ let words = {
 		'cheeky',
 		'hololens',
 		'securtiy focused',
-		'big pharma'
+		'big pharma',
+		'sourdough',
+		'triple filtered',
+		'coffee flavoured',
+		'48k'
 	],
 	nouns:[
 		'instagram',
@@ -53,7 +57,14 @@ let words = {
 		'L E D panel',
 		'fancy shirt',
 		'fishing net',
-		'email campaign'
+		'email campaign',
+		'epsisode or House',
+		'motorboat',
+		'innovation team simulator',
+		'pizza oven',
+		'apple TV app',
+		'e-cig vapour',
+		'raspberry pi clone'
 	],
 	variations:[
 		'writen in elm',
@@ -69,7 +80,10 @@ let words = {
 		'with a windows 10 live tile',
 		'for banks',
 		'that lives in your garden',
-		'designed by a famous racing car driver'
+		'designed by a famous racing car driver',
+		'as a service',
+		'with touch id',
+		'running on Tizen'
 	],
 }
 
@@ -79,9 +93,9 @@ alexaApp.intent("getIdea", {
     ]
   },
   function(request, response) {
-  	let types = words.types.sort( function() { return 0.5 - Math.random() } );
-  	let nouns = words.nouns.sort( function() { return 0.5 - Math.random() } );
-  	let variations = words.variations.sort( function() { return 0.5 - Math.random() } );
+  	let types = words.types.sort( () => 0.5 - Math.random());
+  	let nouns = words.nouns.sort( () => 0.5 - Math.random());
+  	let variations = words.variations.sort( () => 0.5 - Math.random());
     response.say("How about a "+types[0]+" "+types[1]+" "+nouns[0]+" "+variations[0]);
   }
 );
