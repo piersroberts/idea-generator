@@ -34,7 +34,7 @@ let words = {
 		'web 2.0',
 		'slightly invisble',
 		'cheeky'
-	].sort( function() { return 0.5 - Math.random() } ),
+	],
 	nouns:[
 		'instagram',
 		'social currency',
@@ -49,7 +49,7 @@ let words = {
 		'subreddit'
 	].sort( function() { return 0.5 - Math.random() } ),
 	variations:[
-		'wriiten in elm',
+		'writen in elm',
 		'but with beacons',
 		'on a USB stick',
 		'built for quantom computers',
@@ -69,7 +69,10 @@ alexaApp.intent("getIdea", {
     ]
   },
   function(request, response) {
-    response.say("How about a "+words.types[0]+" "+words.types[1]+" "+words.nouns[0]+" "+words.variations[0]);
+  	let types = words.types.sort( function() { return 0.5 - Math.random() } );
+  	let nouns = words.nouns.sort( function() { return 0.5 - Math.random() } );
+  	let variations = words.variations.sort( function() { return 0.5 - Math.random() } );
+    response.say("How about a "+types[0]+" "+types[1]+" "+nouns[0]+" "+variations[0]);
   }
 );
 
