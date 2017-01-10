@@ -79,7 +79,9 @@ let words = {
 		'digital',
 		'analog',
 		'really really tall',
-		'supercooled'
+		'supercooled',
+		'single use',
+		'biodegradable'
 	],
 	nouns:[
 		'webcam',
@@ -193,7 +195,12 @@ let words = {
 		'- like bitcoin',
 		'for taking selfies',
 		'for taking selfies of other people',
-		'but without a headphone socket'
+		'but without a headphone socket',
+		'that doesn’t hurt when you take it off',
+		'that won’t leave you, like she did',
+		'for first timers',
+		'that self destructs after one use',
+		'that makes you laugh, but also learn'
 	],
 }
 
