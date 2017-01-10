@@ -33,7 +33,10 @@ let words = {
 		'native',
 		'web 2.0',
 		'slightly invisble',
-		'cheeky'
+		'cheeky',
+		'hololens',
+		'securtiy focused',
+		'big pharma'
 	],
 	nouns:[
 		'instagram',
@@ -46,8 +49,12 @@ let words = {
 		'funk machine',
 		'virtual pet',
 		'jira board',
-		'subreddit'
-	].sort( function() { return 0.5 - Math.random() } ),
+		'subreddit',
+		'L E D panel',
+		'fancy shirt',
+		'fishing net',
+		'email campaign'
+	],
 	variations:[
 		'writen in elm',
 		'but with beacons',
@@ -59,8 +66,11 @@ let words = {
 		'integrated in to a suit of armour',
 		'written in swift',
 		'written in react native',
-		'with a windows 10 live tile'
-	].sort( function() { return 0.5 - Math.random() } ),
+		'with a windows 10 live tile',
+		'for banks',
+		'that lives in your garden',
+		'designed by a famous racing car driver'
+	],
 }
 
 alexaApp.intent("getIdea", {
