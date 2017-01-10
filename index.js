@@ -201,7 +201,7 @@ function buildTextResponse(){
   	let types = words.types.sort( () => 0.5 - Math.random());
   	let nouns = words.nouns.sort( () => 0.5 - Math.random());
   	let variations = words.variations.sort( () => 0.5 - Math.random());
-    let textResponse = "How about a "+types[0]+", "+types[1]+", "+nouns[0]+" "+variations[0]+"?";
+    let textResponse = "How about a "+types[0]+" "+types[1]+" "+nouns[0]+" "+variations[0]+"?";
     return textResponse;
 }
 
