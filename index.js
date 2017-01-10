@@ -202,7 +202,9 @@ let words = {
 		'that self destructs after one use',
 		'that makes you laugh, but also learn',
 		'that beeps when it\'s done',
-		'for when there\'s a fire'
+		'for when there\'s a fire',
+		'to get rid of that mayonaise smell',
+		'but without that mayonaise smell'
 	],
 }
 
