@@ -69,7 +69,17 @@ let words = {
 		'experimental',
 		'automated',
 		'crypto currency',
-		'retro'
+		'retro',
+		'deep learning',
+		'prettier',
+		'self-driving',
+		'compressed',
+		'condensed',
+		'USB C',
+		'digital',
+		'analog',
+		'really really tall',
+		'supercooled'
 	],
 	nouns:[
 		'webcam',
@@ -121,7 +131,14 @@ let words = {
 		'firewall',
 		'parody twitter account',
 		'website like tinder',
-		'app similar to tripadvisor'
+		'app similar to tripadvisor',
+		'debugging mechanism',
+		'liquid',
+		'cameraphone',
+		'camera',
+		'record player',
+		'audio format',
+		'teapot'
 	],
 	variations:[
 		'written in elm',
@@ -167,12 +184,16 @@ let words = {
 		'like Nick Cage had in that film',
 		'with an interface like the one in minority report',
 		'rendering the whole thing pointless',
-		'but you mustn\'t touch it',
+		'- but you mustn\'t touch it',
 		'for hospitals and hotels',
 		'that knows where you are going to sit',
 		'that breaks down harmlessly in stomach acids',
 		'compatible with Lego',
-		'for meeting new people'
+		'for meeting new people',
+		'- like bitcoin',
+		'for taking selfies',
+		'for taking selfies of other people',
+		'but without a headphone socket'
 	],
 }
 
