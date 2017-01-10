@@ -2,6 +2,7 @@ var express = require("express");
 var alexa = require("alexa-app");
 var bodyParser = require("body-parser");
 
+
 var app = express();
 var PORT = process.env.PORT || 8080;
 
@@ -12,10 +13,55 @@ app.set("view engine", "ejs");
 var alexaApp = new alexa.app("innovator");
 
 alexaApp.launch(function(request, response) {
-  response.say("You launched the app!");
+  response.say("I love innovation!");
 });
 
-alexaApp.dictionary = { "names": ["matt", "joe", "bob", "bill", "mary", "jane", "dawn"] };
+let words = {
+	types:[
+		'cloud based',
+		'voice controlled',
+		'offline',
+		'online',
+		'solid state',
+		'prototype',
+		'pink',
+		'TED talk about a',
+		'mixed reality',
+		'scandalous',
+		'tasty',
+		'gamified',
+		'native',
+		'web 2.0',
+		'slightly invisble',
+		'cheeky'
+	].sort( function() { return 0.5 - Math.random() } ),
+	nouns:[
+		'instagram',
+		'social currency',
+		'drone delivery service',
+		'videogame',
+		'3d printer',
+		'pizzagate',
+		'iOS app',
+		'funk machine',
+		'virtual pet',
+		'jira board',
+		'subreddit'
+	].sort( function() { return 0.5 - Math.random() } ),
+	variations:[
+		'wriiten in elm',
+		'but with beacons',
+		'on a USB stick',
+		'built for quantom computers',
+		'to run on smart fridges',
+		'but for girls',
+		'without all the scandal',
+		'integrated in to a suit of armour',
+		'written in swift',
+		'written in react native',
+		'with a windows 10 live tile'
+	].sort( function() { return 0.5 - Math.random() } ),
+}
 
 alexaApp.intent("getIdea", {
     "utterances": [
@@ -23,7 +69,7 @@ alexaApp.intent("getIdea", {
     ]
   },
   function(request, response) {
-    response.say("Success!");
+    response.say("How about a "+words.types[0]+" "+words.types[1]+" "+words.types[0]+" "+words.variations[0]);
   }
 );
 
