@@ -100,7 +100,8 @@ let words = {
 		'glittery',
 		'organic',
 		'consumer facing',
-		'foggy'
+		'foggy',
+		'artisan'
 	],
 	nouns:[
 		'webcam',
@@ -160,7 +161,8 @@ let words = {
 		'audio format',
 		'teapot',
 		'set top box',
-		'e-card'
+		'e-card',
+		'craft beer dispenser'
 	],
 	variations:[
 		'written in elm',
