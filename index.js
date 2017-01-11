@@ -101,7 +101,8 @@ let words = {
 		'organic',
 		'consumer facing',
 		'foggy',
-		'artisan'
+		'artisan',
+		'back-compatible'
 	],
 	nouns:[
 		'webcam',
@@ -151,7 +152,7 @@ let words = {
 		'cash card',
 		'firewall',
 		'parody twitter account',
-		'website like tinder',
+		'website kind of like tinder',
 		'app similar to tripadvisor',
 		'debugging mechanism',
 		'liquid',
@@ -162,7 +163,8 @@ let words = {
 		'teapot',
 		'set top box',
 		'e-card',
-		'craft beer dispenser'
+		'craft beer dispenser',
+		'nostalgia trip'
 	],
 	variations:[
 		'written in elm',
@@ -238,7 +240,10 @@ let words = {
 		'using this one weird trick',
 		'with an introduction by Thom Yorke from Radiohead',
 		'bundled with a concept album by Coldplay',
-		'but better'
+		'but better',
+		'retrofitted into a NES controller',
+		'for developing markets',
+		'but for for kids'
 	],
 }
 
@@ -246,7 +251,16 @@ function buildTextResponse(){
   	let types = words.types.sort( () => 0.5 - Math.random());
   	let nouns = words.nouns.sort( () => 0.5 - Math.random());
   	let variations = words.variations.sort( () => 0.5 - Math.random());
-    let textResponse = "How about a "+types[0]+" "+types[1]+" "+nouns[0]+" "+variations[0]+"?";
+
+  	function getRandomInt(min, max) {
+    	return Math.floor(Math.random() * (max - min + 1)) + min;
+	}
+	let type = '';
+	for (i = 0; i < getRandomInt(0,2); i++) { 
+    	type += types[i] + " ";
+	}
+
+    let textResponse = "How about a "+type+nouns[0]+" "+variations[0]+"?";
     return textResponse;
 }
 
