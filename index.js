@@ -232,7 +232,13 @@ let words = {
 		'but sings happy birthday',
 		'with a headphone socket',
 		'for road warriors',
-		'for pets'
+		'for pets',
+		'on acid',
+		'on steroids',
+		'using this one weird trick',
+		'with an introduction by Thom Yorke from Radiohead',
+		'bundled with a concept album by Coldplay',
+		'but better'
 	],
 }
 
