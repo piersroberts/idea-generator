@@ -27,7 +27,6 @@ let words = {
 		'pink',
 		'TED talk about a',
 		'mixed reality',
-		'scandalous',
 		'tasty',
 		'gamified',
 		'native',
@@ -100,9 +99,12 @@ let words = {
 		'glittery',
 		'organic',
 		'consumer facing',
-		'foggy',
 		'artisan',
-		'back-compatible'
+		'back-compatible',
+		'totally rad',
+		'opinionated',
+		'wearable',
+		'totally silent'
 	],
 	nouns:[
 		'webcam',
@@ -117,7 +119,6 @@ let words = {
 		'jira board',
 		'subreddit',
 		'L E D panel',
-		'fancy shirt',
 		'fishing net',
 		'email campaign',
 		'episode of House',
@@ -164,7 +165,8 @@ let words = {
 		'set top box',
 		'e-card',
 		'craft beer dispenser',
-		'nostalgia trip'
+		'nostalgia trip',
+		'laptop cooler'
 	],
 	variations:[
 		'written in elm',
