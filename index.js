@@ -12,6 +12,8 @@ var corsOptions = {
   origin: '*'
 }
 
+const VOWELS = ['a','e','i','o','u'];
+
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 app.set("view engine", "ejs");
@@ -38,7 +40,12 @@ function buildTextResponse() {
     type += types[i] + " ";
   }
 
-  let textResponse = "How about a " + type + nouns[0] + " " + variations[0] + "?";
+  if(VOWELS.indexOf(type[0]) < 0 ){
+    type = 'a '+type+' ';
+  }else{
+    type = 'an '+type+' ';
+  }
+  let textResponse = "How about " + type + nouns[0] + " " + variations[0] + "?";
   return textResponse;
 }
 
