@@ -104,7 +104,7 @@ let words = {
     'virtual pet',
     'jira board',
     'subreddit',
-    'L E D panel',
+    'LED panel',
     'fishing net',
     'email campaign',
     'episode of House',
@@ -117,7 +117,7 @@ let words = {
     'slackbot',
     'photoshop plugin',
     'internet website',
-    '4 O 4 page',
+    '404 page',
     'pop up shop',
     'experience',
     'vr experience',
@@ -153,7 +153,12 @@ let words = {
     'craft beer dispenser',
     'nostalgia trip',
     'laptop cooler',
-    'fake news'
+    'fake news outlet',
+    'surveillance system',
+    'government organisation',
+    'dogfood',
+    'flowerpot',
+    'meme'
   ],
   variations: [
     'written in elm',
@@ -175,7 +180,7 @@ let words = {
     'running on Tizen',
     'but for dogs and horses and things like that',
     'that never gets wet',
-    '. jon shave edition',
+    '- John Shave edition',
     'that frightens away bees',
     'but more premium',
     'for businesses',
@@ -233,7 +238,9 @@ let words = {
     'retrofitted into a NES controller',
     'for developing markets',
     'but for for kids',
-    'that could pull down from the top when you click the button'
+    'that could pull down from the top when you click the button',
+    'meme',
+    'association'
   ],
 }
 
