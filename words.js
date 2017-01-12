@@ -90,10 +90,13 @@ let words = {
     'deskdrop about a',
     'mobile first',
     'non-threatening',
-    'gender specific'
+    'gender specific',
+    'hidden',
+    'discreet'
   ],
   nouns: [
     'webcam',
+    'adblocker',
     'instagram',
     'social currency',
     'drone delivery service',
@@ -120,7 +123,7 @@ let words = {
     '404 page',
     'pop up shop',
     'experience',
-    'vr experience',
+    'VR experience',
     'think piece',
     'white paper',
     'webinar',
@@ -158,7 +161,8 @@ let words = {
     'government organisation',
     'dogfood',
     'flowerpot',
-    'meme'
+    'meme',
+    'concept browser'
   ],
   variations: [
     'written in elm',
@@ -176,7 +180,7 @@ let words = {
     'that lives in your garden',
     'designed by a famous racing car driver',
     'as a service',
-    'with touch I D',
+    'with Touch ID',
     'running on Tizen',
     'but for dogs and horses and things like that',
     'that never gets wet',
@@ -224,7 +228,7 @@ let words = {
     'to get rid of that mayonaise smell',
     'but without that mayonaise smell',
     'for poor people',
-    'to organise your steelbook blu-rays',
+    'to organise your blu-rays',
     'but sings happy birthday',
     'with a headphone socket',
     'for road warriors',
@@ -240,7 +244,12 @@ let words = {
     'but for for kids',
     'that could pull down from the top when you click the button',
     'meme',
-    'association'
+    'association',
+    'for digital nomads',
+    'with unlimited sponsorship opportunities',
+    'run by hipsters',
+    'to hide your files',
+    'that doesn\'t leave any evidence'
   ],
 }
 
