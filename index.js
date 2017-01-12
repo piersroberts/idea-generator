@@ -6,7 +6,7 @@ var words = require('./words');
 
 
 var app = express();
-var PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 8081;
 
 var corsOptions = {
   origin: '*'
@@ -40,7 +40,7 @@ function buildTextResponse() {
     type += types[i] + " ";
   }
 
-  if(VOWELS.indexOf(type[0]) < 0 ){
+  if(VOWELS.indexOf((type + nouns)[0]) < 0 ){
     type = 'a '+type+' ';
   }else{
     type = 'an '+type+' ';
