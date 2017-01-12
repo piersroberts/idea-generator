@@ -1,10 +1,15 @@
-var express = require("express");
-var alexa = require("alexa-app");
-var bodyParser = require("body-parser");
+var express = require('express');
+var alexa = require('alexa-app');
+var bodyParser = require('body-parser');
+var cors = require('cors');
 
 
 var app = express();
 var PORT = process.env.PORT || 8080;
+
+var corsOptions = {
+  origin: '*'
+}
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
@@ -104,7 +109,11 @@ let words = {
     'totally rad',
     'opinionated',
     'wearable',
-    'totally silent'
+    'totally silent',
+    'deskdrop about a',
+    'mobile first',
+    'non-threatening',
+    'gender specific'
   ],
   nouns: [
     'webcam',
@@ -131,7 +140,7 @@ let words = {
     'slackbot',
     'photoshop plugin',
     'internet website',
-    '4 0 4 page',
+    '4 O 4 page',
     'pop up shop',
     'experience',
     'vr experience',
@@ -166,7 +175,8 @@ let words = {
     'e-card',
     'craft beer dispenser',
     'nostalgia trip',
-    'laptop cooler'
+    'laptop cooler',
+    'fake news'
   ],
   variations: [
     'written in elm',
@@ -245,7 +255,8 @@ let words = {
     'but better',
     'retrofitted into a NES controller',
     'for developing markets',
-    'but for for kids'
+    'but for for kids',
+    'that could pull down from the top when you click the button'
   ],
 }
 
@@ -289,7 +300,7 @@ alexaApp.intent("shipIt", {
 
 alexaApp.express(app, "/echo/");
 
-app.get('/random-idea', function (request, response) {
+app.get('/random-idea', cors(corsOptions), function (request, response, next) {
   response.send(buildTextResponse());
 })
 
