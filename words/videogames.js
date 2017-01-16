@@ -1,6 +1,6 @@
 let words = {
 	types : [
-		`indie platformer`,
+		`indie casual`,
 		`MMORPG`,
 		`farming simulator`,
 		`on rails shooter`,
@@ -27,7 +27,10 @@ let words = {
 		`turn based co-op`,
 		`micromanager`,
 		`surrealism experiment`,
-		`snooker management game`
+		`snooker management game`,
+    `fast paced light-gun epic`,
+    `competitive excergame`,
+    `digital pinball table`
 	],
 	nouns : [
 		`Captain Grammar`,
@@ -140,7 +143,8 @@ let words = {
 		`and the cast of Gorillaz dance along to it`,
 		`and there are several prizes you can choose from`,
 		`- it's online, so there's lag`,
-		`the Guitar Hero guitar works with it`
+		`the Guitar Hero guitar works with it`,
+    `trying to tame a lion`
 	]
 };
 
