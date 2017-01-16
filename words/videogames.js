@@ -97,7 +97,8 @@ let words = {
 		`Bjork`,
 		`King Herod`,
 		`Gark Lineker`,
-		`an Online Troll`
+		`an Online Troll`,
+		`either Simon OR Garfunkel, (whoever you don't pick is the final boss!)`
 	],
 	variations : [
 		`just trying to find your way home`,
@@ -149,9 +150,15 @@ let words = {
 		`- it's online, so there's lag`,
     `trying to tame a lion`,
 		`the Guitar Hero guitar works with it`,
-		`and you can use micropayments to buy different hats`,
     `that uses lyrics as a weapon`,
-    `with a gun`
+    `with a gun`,
+		`and you can use micropayments to buy different hats`,
+		`and you get to kiss Sonic at the end`,
+		`and you have to kill the bad guys using stealth`,
+		`but watch out! The villain is none other than Dr Robotnik!`,
+		`but don't crap your pants or it's game over!`,
+		`and the Playstation Camera will know if you've left the room`,
+		`and you must try not to wake up Grandpa`
 	]
 };
 
