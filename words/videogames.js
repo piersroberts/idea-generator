@@ -34,7 +34,8 @@ let words = {
 		`snooker management game`,
 		`slice-of-life adventure game`,
 		`turret defense`,
-		`educational game`
+		`educational game`,
+		`suicide simulator`
 	],
 	nouns : [
 		`Captain Grammar`,
@@ -72,7 +73,7 @@ let words = {
 		`1950's moviestars`,
 		`some sort of bird`,
 		`the Marlborough Man`,
-		`a great big pig`,
+		`a Great Big Fat Pig`,
 		`a pregnant snake`,
 		`Terry Wogan`,
 		`one of the Pacman ghosts`,
@@ -96,9 +97,18 @@ let words = {
 		`the Meatball from Ol' Smokey that got lost when somebody sneezed`,
 		`Bjork`,
 		`King Herod`,
-		`Gark Lineker`,
+		`Gary Lineker`,
 		`an Online Troll`,
-		`either Simon OR Garfunkel, (whoever you don't pick is the final boss!)`
+		`either Simon OR Garfunkel, (whoever you don't pick is the final boss!)`,
+		`a sexy businessman`,
+		`a small business owner`,
+		`a really angry Irishman`,
+		`the Wall St Bull Statue`,
+		`a bad painting of Henry VIII`,
+		`either Mulder, Scully, or The Noid`,
+		`Frankenstein`,
+		`Dracula`,
+		`Miss Universe`
 	],
 	variations : [
 		`just trying to find your way home`,
@@ -161,7 +171,13 @@ let words = {
 		`and you must try not to wake up Grandpa`,
     `trying to chose a date for prom`,
     `driving your friends to the mall`,
-    `trying to remember things`
+    `trying to remember things`,
+		`trying to hit a pinata`,
+		`trying to take out the garbage`,
+		`running a race without bending your knees`,
+		`but the sound effects get higher pitched randomly`,
+		`and the soundtrack is by Aphex Twin`,
+		`and the motion captured Daniel Day Lewis is disturbing`
 	]
 };
 
