@@ -6,7 +6,18 @@ let words = {
 		`farming simulator`,
 		`on rails shooter`,
 		`live-action video adventure`,
-		`arcade platformer`
+		`arcade platformer`,
+		`mobile game`,
+		`brain training game`,
+		`8-bit platformer`,
+		`rhythm game`,
+		`survival horror`,
+		`dating sim`,
+		`multi-player party game`,
+		`GTA clone`,
+		`text adventure`,
+		`escape room simulator`,
+		`flight simulator`
 	],
 	nouns : [
 		`eggs`,
@@ -23,7 +34,9 @@ let words = {
 		`Cool Ranch Original Flavour Doritosᵀᴹ`,
 		`Tumble dryer repair man`,
 		`tiny farting caterpillar`,
-		`the entire cast of Seinfeld`
+		`the entire cast of Seinfeld`,
+		`a nana who has escaped from the retirement home`,
+		``
 	],
 	variations : [
 		`just trying to find your way home`,
@@ -33,7 +46,9 @@ let words = {
 		`where the games resets every time you die`,
 		`that speeds up exponentially every five minutes`,
 		`who must solve crimes by using only household implements`,
-		`locked in a room with an angry bee`
+		`locked in a room with an angry bee`,
+		`who must get off a desert island`,
+		`in a fantastic adventure with pirates!`
 	]
 };
 
