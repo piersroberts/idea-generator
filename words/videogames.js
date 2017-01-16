@@ -201,7 +201,11 @@ let words = {
     `compatible with old Doom maps`,
     `who's off the meds`,
     `vs The Beatles`,
-    `on Christmas day`
+    `on Christmas day`,
+    `drinking as many drinks as you can`,
+    `in a mech suit`,
+    `with huge muscles`,
+    `with wheels`
 	]
 };
 
