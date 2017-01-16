@@ -1,8 +1,7 @@
 let words = {
 	types : [
-		`indie`,
+		`indie platformer`,
 		`MMORPG`,
-		`voxel`,
 		`farming simulator`,
 		`on rails shooter`,
 		`live-action video adventure`,
@@ -53,14 +52,17 @@ let words = {
 		`a big muscly army man`,
 		`a watermelon hurtling towards the floor`,
 		`the Prime Minister`,
-		`Eggles: The egg with legs`
+		`Eggles: The egg with legs`,
+		`1950's moviestars`,
+		`some sort of bird`,
+		`the Marlborough Man`
 	],
 	variations : [
 		`just trying to find your way home`,
-		`that are trying to kill themselves`,
+		`trying to kill yourself`,
 		`that must defeat the nazi king`,
 		`on a mission to find where the moon went`,
-		`where the games resets every time you die`,
+		`but the game resets every time you die`,
 		`that speeds up exponentially every five minutes`,
 		`who must solve crimes by using only household implements`,
 		`locked in a room with an angry bee`,
@@ -69,16 +71,23 @@ let words = {
 		`on skis`,
 		`vs Predator`,
 		`in a fantastic adventure with pirates!`,
-		`the blocks must line up with the other blocks or something…`,
+		`but the blocks must line up with the other blocks or something…`,
 		`and it's a murder mystery set in an abandoned Butlins`,
 		`in hospital museum`,
-		`that only runs if you have a special dongle`,
-		`where you have to use your brain, but also tests your balance`,
+		` - it might only run if you have a special dongle`,
+		`but you have to use your brain, and also test your balance`,
 		`that's fun for pets to watch`,
 		`set in the past`,
 		`and it's a murder mystery set in an abandoned Butlins`,
 		`trying to untangle fairy lights`,
-		`evolving and fighting tiny horses`
+		`evolving and fighting tiny horses`,
+		`with unique weapon crafting process`,
+		`that eats eggs`,
+		`fighting an evil version of yourself`,
+		`that has a clever twist at the end`,
+		`in a reserved Wiltshire village`,
+		`to tie in with the upcoming feature film`,
+		`set in a techno music soundscape`
 	]
 };
 
