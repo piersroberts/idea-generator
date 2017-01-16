@@ -17,7 +17,8 @@ let words = {
 		`GTA clone`,
 		`text adventure`,
 		`escape room simulator`,
-		`flight simulator`
+		`flight simulator`,
+		`kart racer`
 	],
 	nouns : [
 		`eggs`,
@@ -36,7 +37,7 @@ let words = {
 		`tiny farting caterpillar`,
 		`the entire cast of Seinfeld`,
 		`a nana who has escaped from the retirement home`,
-		``
+		`an Ocado delivery driver`
 	],
 	variations : [
 		`just trying to find your way home`,
