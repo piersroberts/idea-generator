@@ -19,9 +19,18 @@ let words = {
 		`flight simulator`,
 		`kart racer`,
 		`tamagotchi knock-off`,
-		`interactive film`
+		`interactive film`,
+		`Flappy Bird rip-off`,
+		`sports sim`,
+		`top-down footie game`,
+		`strategic business game`,
+		`turn based co-op`,
+		`micromanager`,
+		`surrealism experiment`,
+		`snooker management game`
 	],
 	nouns : [
+		`Captain Grammar`,
 		`eggs`,
 		`some eggs`,
 		`an egg`,
@@ -55,7 +64,21 @@ let words = {
 		`Eggles: The egg with legs`,
 		`1950's moviestars`,
 		`some sort of bird`,
-		`the Marlborough Man`
+		`the Marlborough Man`,
+		`a great big pig`,
+		`a pregnant snake`,
+		`Terry Wogan`,
+		`one of the Pacman ghosts`,
+		`a normal homemaker`,
+		`Scrubs`,
+		`a spaceship`,
+		`Ziggy from Quantum Leap`,
+		`various historical figures`,
+		`Mr Kipling`,
+		`Lenny Henry`,
+		`any porn star`,
+		`Clippy`,
+		`snooker players`
 	],
 	variations : [
 		`just trying to find your way home`,
@@ -73,7 +96,7 @@ let words = {
 		`in a fantastic adventure with pirates!`,
 		`but the blocks must line up with the other blocks or something…`,
 		`and it's a murder mystery set in an abandoned Butlins`,
-		`in hospital museum`,
+		`in a hospital museum`,
 		` - it might only run if you have a special dongle`,
 		`but you have to use your brain, and also test your balance`,
 		`that's fun for pets to watch`,
@@ -87,7 +110,17 @@ let words = {
 		`that has a clever twist at the end`,
 		`in a reserved Wiltshire village`,
 		`to tie in with the upcoming feature film`,
-		`set in a techno music soundscape`
+		`set in a techno music soundscape`,
+		`reviewing restaurants`,
+		`in the bathroom`,
+		`restoring and renovating a hotel`,
+		`in space`,
+		`trying to predict Office applications based on the file extension`,
+		`travelling through Canada`,
+		`with optional subtitles`,
+		`and you have to score goals`,
+		` - whoever gets the most points is the winner`,
+		`with glasses`
 	]
 };
 
