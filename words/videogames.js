@@ -34,7 +34,9 @@ let words = {
 		`snooker management game`,
 		`slice-of-life adventure game`,
 		`turret defense`,
-		`educational game`
+		`educational game`,
+    `beat-em-up`,
+    `shoot-em-up`
 	],
 	nouns : [
 		`Captain Grammar`,
@@ -161,7 +163,9 @@ let words = {
 		`and you must try not to wake up Grandpa`,
     `trying to chose a date for prom`,
     `driving your friends to the mall`,
-    `trying to remember things`
+    `trying to remember things`,
+    `in a hot air balloon`,
+    `and all the characters from Dad's Army`
 	]
 };
 
