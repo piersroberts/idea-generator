@@ -116,7 +116,9 @@ let words = {
 		`Frankenstein`,
 		`Dracula`,
 		`Miss Universe`,
-		`a really big clumsy oaf`
+		`a really big clumsy oaf`,
+    `all the bad guys`,
+    `a VW Beetle`
 	],
 	variations : [
 		`just trying to find your way home`,
@@ -196,6 +198,10 @@ let words = {
 		`just generally being clumsy and trashing the place`,
 		`tumbling wildly down the side of a mountain`,
     `on opposite day`,
+    `compatible with old Doom maps`,
+    `who's off the meds`,
+    `vs The Beatles`,
+    `on Christmas day`
 	]
 };
 
