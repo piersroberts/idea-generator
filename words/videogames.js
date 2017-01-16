@@ -6,7 +6,19 @@ let words = {
 		`farming simulator`,
 		`on rails shooter`,
 		`live-action video adventure`,
-		`arcade platformer`
+		`arcade platformer`,
+		`mobile game`,
+		`brain training game`,
+		`8-bit platformer`,
+		`rhythm game`,
+		`survival horror`,
+		`dating sim`,
+		`multi-player party game`,
+		`GTA clone`,
+		`text adventure`,
+		`escape room simulator`,
+		`flight simulator`,
+		`kart racer`
 	],
 	nouns : [
 		`eggs`,
@@ -22,14 +34,27 @@ let words = {
 		`your mum`,
 		`Cool Ranch Original Flavour Doritosᵀᴹ`,
 		`Tumble dryer repair man`,
-		`Guybrush Threepwwood`
+		`Guybrush Threepwwood`,
+		`a tiny farting caterpillar`,
+		`the entire cast of Seinfeld`,
+		`a nana who has escaped from the retirement home`,
+		`an Ocado delivery driver`
 	],
 	variations : [
 		`just trying to find your way home`,
-		`that are trying to kill themselves`,
+		`trying to kill yourself`,
 		`that must defeat the nazi king`,
 		`shopping`,
-		`beating off rebels`
+		`beating off rebels`,
+		`on a mission to find where the moon went`,
+		`where the game resets every time you die`,
+		`that speeds up exponentially every five minutes`,
+		`where you must solve crimes by using only household implements`,
+		`locked in a room with an angry bee`,
+		`who must get off a desert island`,
+		`in a fantastic adventure with pirates!`,
+		`on skis`,
+		`vs Predator`
 	]
 };
 
