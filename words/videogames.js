@@ -40,7 +40,8 @@ let words = {
 		`educational game`,
 		`suicide simulator`,
 		`frogger-style game`,
-		`escort mission game`
+		`escort mission game`,
+    `Apple watch app`
 	],
 	nouns : [
 		`Captain Grammar`,
@@ -192,7 +193,8 @@ let words = {
 		`and it's free online for the first month`,
 		`but don't crash into anything or it's all over`,
 		`just generally being clumsy and trashing the place`,
-		`tumbling wildly down the side of a mountain`
+		`tumbling wildly down the side of a mountain`,
+    `on opposite day`,
 	]
 };
 
