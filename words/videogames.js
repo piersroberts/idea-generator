@@ -70,7 +70,7 @@ let words = {
 		`Terry Wogan`,
 		`one of the Pacman ghosts`,
 		`a normal homemaker`,
-		`Scrubs`,
+		`one of the guys from Scrubs`,
 		`a spaceship`,
 		`Ziggy from Quantum Leap`,
 		`various historical figures`,
