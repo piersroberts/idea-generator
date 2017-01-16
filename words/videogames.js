@@ -1,6 +1,6 @@
 let words = {
 	types : [
-		`indie casual`,
+		`indie platformer`,
 		`MMORPG`,
 		`farming simulator`,
 		`on rails shooter`,
@@ -30,7 +30,11 @@ let words = {
 		`snooker management game`,
     `fast paced light-gun epic`,
     `competitive excergame`,
-    `digital pinball table`
+    `digital pinball table`,
+		`snooker management game`,
+		`slice-of-life adventure game`,
+		`turret defense`,
+		`educational game`
 	],
 	nouns : [
 		`Captain Grammar`,
@@ -143,8 +147,11 @@ let words = {
 		`and the cast of Gorillaz dance along to it`,
 		`and there are several prizes you can choose from`,
 		`- it's online, so there's lag`,
+    `trying to tame a lion`,
 		`the Guitar Hero guitar works with it`,
-    `trying to tame a lion`
+		`and you can use micropayments to buy different hats`,
+    `that uses lyrics as a weapon`,
+    `with a gun`
 	]
 };
 
