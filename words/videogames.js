@@ -82,7 +82,15 @@ let words = {
 		`Sonic's friends`,
 		`a plastic bag blowing in the wind`,
 		`a football team`,
-		`God and Jesus`
+		`God and Jesus`,
+		`snooker players`,
+		`Fraiser Crane, from Fraiser`,
+		`a Mother Goose`,
+		`the Meatball from Ol' Smokey that got lost when somebody sneezed`,
+		`Bjork`,
+		`King Herod`,
+		`Gark Lineker`,
+		`an Online Troll`
 	],
 	variations : [
 		`just trying to find your way home`,
@@ -125,7 +133,14 @@ let words = {
 		`and you have to score goals`,
 		` - whoever gets the most points is the winner`,
 		`with glasses`,
-		`and you have to keeping moving or you'll die`
+		`and you have to keeping moving or you'll die`,
+		`with glasses`,
+		`and the controls are reversed`,
+		`and it works with a dance mat`,
+		`and the cast of Gorillaz dance along to it`,
+		`and there are several prizes you can choose from`,
+		`- it's online, so there's lag`,
+		`the Guitar Hero guitar works with it`
 	]
 };
 
