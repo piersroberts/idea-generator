@@ -29,7 +29,11 @@ let words = {
 		`just trying to find your way home`,
 		`that are trying to kill themselves`,
 		`that must defeat the nazi king`,
-		`on a mission to find where the moon went`
+		`on a mission to find where the moon went`,
+		`where the games resets every time you die`,
+		`that speeds up exponentially every five minutes`,
+		`who must solve crimes by using only household implements`,
+		`locked in a room with an angry bee`
 	]
 };
 
