@@ -78,7 +78,11 @@ let words = {
 		`Lenny Henry`,
 		`any porn star`,
 		`Clippy`,
-		`snooker players`
+		`snooker players`,
+		`Sonic's friends`,
+		`a plastic bag blowing in the wind`,
+		`a football team`,
+		`God and Jesus`
 	],
 	variations : [
 		`just trying to find your way home`,
@@ -120,7 +124,8 @@ let words = {
 		`with optional subtitles`,
 		`and you have to score goals`,
 		` - whoever gets the most points is the winner`,
-		`with glasses`
+		`with glasses`,
+		`and you have to keeping moving or you'll die`
 	]
 };
 
