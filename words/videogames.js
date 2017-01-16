@@ -18,7 +18,8 @@ let words = {
 		`text adventure`,
 		`escape room simulator`,
 		`flight simulator`,
-		`kart racer`
+		`kart racer`,
+		`text adventure`
 	],
 	nouns : [
 		`eggs`,
@@ -34,7 +35,7 @@ let words = {
 		`your mum`,
 		`Cool Ranch Original Flavour Doritosᵀᴹ`,
 		`Tumble dryer repair man`,
-		`Guybrush Threepwwood`,
+		`Guybrush Threepwood`,
 		`a tiny farting caterpillar`,
 		`the entire cast of Seinfeld`,
 		`a nana who has escaped from the retirement home`,
@@ -58,10 +59,16 @@ let words = {
 		`who must get off a desert island`,
 		`in a fantastic adventure with pirates!`,
 		`on skis`,
-		`vs Predator`
+		`vs Predator`,
 		`in a fantastic adventure with pirates!`,
 		`the blocks must line up with the other blocks or something…`,
-		`and it's a murder mystery set in an abandoned Butlins`
+		`and it's a murder mystery set in an abandoned Butlins`,
+		`in hospital museum`,
+		`that only runs if you have a special dongle`,
+		`where you have to use your brain, but also tests your balance`,
+		`that's fun for pets to watch`,
+		`set in the past`,
+
 	]
 };
 

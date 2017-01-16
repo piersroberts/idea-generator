@@ -59,7 +59,7 @@ function buildGameIdea(){
   
   let firstPart = ``;
     for (i = 0; i < getRandomInt(0, 2); i++) {
-    firstPart += words.types[i] + " ";
+    firstPart += words.types[i] + ` `;
   }
   firstPart += (firstPart ? `` : `game `) + `where you play`;
 
