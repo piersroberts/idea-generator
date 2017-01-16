@@ -118,7 +118,8 @@ let words = {
 		`Miss Universe`,
 		`a really big clumsy oaf`,
     `all the bad guys`,
-    `a VW Beetle`
+    `a VW Beetle`,
+    `a shark`
 	],
 	variations : [
 		`just trying to find your way home`,
@@ -205,7 +206,8 @@ let words = {
     `drinking as many drinks as you can`,
     `in a mech suit`,
     `with huge muscles`,
-    `with wheels`
+    `with wheels`,
+    `in an isometric nightmare`
 	]
 };
 
