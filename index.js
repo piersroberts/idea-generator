@@ -2,7 +2,7 @@ var express = require('express');
 var alexa = require('alexa-app');
 var bodyParser = require('body-parser');
 var cors = require('cors');
-var words = require('./words');
+var words = require('./words/innovation');
 
 
 var app = express();
@@ -24,16 +24,14 @@ alexaApp.launch(function (request, response) {
   response.say("I love innovation!");
 });
 
-
+  function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
 
 function buildTextResponse() {
   let types = words.types.sort(() => 0.5 - Math.random());
   let nouns = words.nouns.sort(() => 0.5 - Math.random());
   let variations = words.variations.sort(() => 0.5 - Math.random());
-
-  function getRandomInt(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-  }
 
   let type = '';
   for (i = 0; i < getRandomInt(0, 2); i++) {
