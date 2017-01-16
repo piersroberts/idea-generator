@@ -3,7 +3,10 @@ let words = {
 		`indie`,
 		`MMORPG`,
 		`voxel`,
-		`farming simulator`
+		`farming simulator`,
+		`on rails shooter`,
+		`live-action video adventure`,
+		`arcade platformer`
 	],
 	nouns : [
 		`eggs`,
