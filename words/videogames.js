@@ -21,12 +21,15 @@ let words = {
 		`the entire population of Luxembourg`,
 		`your mum`,
 		`Cool Ranch Original Flavour Doritosᵀᴹ`,
-		`Tumble dryer repair man`
+		`Tumble dryer repair man`,
+		`tiny farting caterpillar`,
+		`the entire cast of Seinfeld`
 	],
 	variations : [
 		`just trying to find your way home`,
 		`that are trying to kill themselves`,
-		`that must defeat the nazi king`
+		`that must defeat the nazi king`,
+		`on a mission to find where the moon went`
 	]
 };
 
