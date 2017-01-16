@@ -27,7 +27,10 @@ let words = {
 		`turn based co-op`,
 		`micromanager`,
 		`surrealism experiment`,
-		`snooker management game`
+		`snooker management game`,
+		`slice-of-life adventure game`,
+		`turret defense`,
+		`educational game`
 	],
 	nouns : [
 		`Captain Grammar`,
@@ -140,7 +143,8 @@ let words = {
 		`and the cast of Gorillaz dance along to it`,
 		`and there are several prizes you can choose from`,
 		`- it's online, so there's lag`,
-		`the Guitar Hero guitar works with it`
+		`the Guitar Hero guitar works with it`,
+		`and you can use micropayments to buy different hats`
 	]
 };
 
