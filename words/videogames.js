@@ -158,7 +158,10 @@ let words = {
 		`but watch out! The villain is none other than Dr Robotnik!`,
 		`but don't crap your pants or it's game over!`,
 		`and the Playstation Camera will know if you've left the room`,
-		`and you must try not to wake up Grandpa`
+		`and you must try not to wake up Grandpa`,
+    `trying to chose a date for prom`,
+    `driving your friends to the mall`,
+    `trying to remember things`
 	]
 };
 
