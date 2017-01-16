@@ -19,7 +19,8 @@ let words = {
 		`escape room simulator`,
 		`flight simulator`,
 		`kart racer`,
-		`text adventure`
+		`tamagotchi knock-off`,
+		`interactive film`
 	],
 	nouns : [
 		`eggs`,
@@ -37,24 +38,31 @@ let words = {
 		`Tumble dryer repair man`,
 		`Guybrush Threepwood`,
 		`a tiny farting caterpillar`,
+		`tiny farting caterpillar`,
 		`the entire cast of Seinfeld`,
 		`a nana who has escaped from the retirement home`,
 		`an Ocado delivery driver`,
 		`a dirty great big jug of farts`,
 		`a cop who just handed in their badge`,
 		`a grammar nazi`,
-		`Tony Hawk`
+		`Tony Hawk`,
+		`a human ass`,
+		`Wario`,
+		`a delicious steak dinner`,
+		`a precariously balanced bucket of water`,
+		`a big muscly army man`,
+		`a watermelon hurtling towards the floor`,
+		`the Prime Minister`,
+		`Eggles: The egg with legs`
 	],
 	variations : [
 		`just trying to find your way home`,
-		`trying to kill yourself`,
+		`that are trying to kill themselves`,
 		`that must defeat the nazi king`,
-		`shopping`,
-		`beating off rebels`,
 		`on a mission to find where the moon went`,
-		`where the game resets every time you die`,
+		`where the games resets every time you die`,
 		`that speeds up exponentially every five minutes`,
-		`where you must solve crimes by using only household implements`,
+		`who must solve crimes by using only household implements`,
 		`locked in a room with an angry bee`,
 		`who must get off a desert island`,
 		`in a fantastic adventure with pirates!`,
@@ -68,7 +76,9 @@ let words = {
 		`where you have to use your brain, but also tests your balance`,
 		`that's fun for pets to watch`,
 		`set in the past`,
-
+		`and it's a murder mystery set in an abandoned Butlins`,
+		`trying to untangle fairy lights`,
+		`evolving and fighting tiny horses`
 	]
 };
 
