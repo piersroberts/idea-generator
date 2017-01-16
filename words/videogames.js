@@ -41,7 +41,8 @@ let words = {
 		`suicide simulator`,
 		`frogger-style game`,
 		`escort mission game`,
-    `Apple watch app`
+    `Apple watch app`,
+    `survival sandbox`
 	],
 	nouns : [
 		`Captain Grammar`,
