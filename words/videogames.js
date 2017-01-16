@@ -37,7 +37,11 @@ let words = {
 		`tiny farting caterpillar`,
 		`the entire cast of Seinfeld`,
 		`a nana who has escaped from the retirement home`,
-		`an Ocado delivery driver`
+		`an Ocado delivery driver`,
+		`a dirty great big jug of farts`,
+		`a cop who just handed in their badge`,
+		`a grammar nazi`,
+		`Tony Hawk`
 	],
 	variations : [
 		`just trying to find your way home`,
@@ -49,7 +53,9 @@ let words = {
 		`who must solve crimes by using only household implements`,
 		`locked in a room with an angry bee`,
 		`who must get off a desert island`,
-		`in a fantastic adventure with pirates!`
+		`in a fantastic adventure with pirates!`,
+		`the blocks must line up with the other blocks or something…`,
+		`and it's a murder mystery set in an abandoned Butlins`
 	]
 };
 
