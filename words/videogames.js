@@ -3,7 +3,10 @@ let words = {
 		`indie`,
 		`MMORPG`,
 		`voxel`,
-		`farming simulator`
+		`farming simulator`,
+		`on rails shooter`,
+		`live-action video adventure`,
+		`arcade platformer`
 	],
 	nouns : [
 		`eggs`,
@@ -11,10 +14,10 @@ let words = {
 		`an egg`,
 		`a talking dog`,
 		`The Waltons`,
-		`monopoly piece`,
-		`cardboard box`,
-		`12 man jury`,
-		`spittoon`,
+		`a monopoly piece`,
+		`a cardboard box`,
+		`a 12 man jury`,
+		`a spittoon`,
 		`the entire population of Luxembourg`,
 		`your mum`,
 		`Cool Ranch Original Flavour Doritosᵀᴹ`,
