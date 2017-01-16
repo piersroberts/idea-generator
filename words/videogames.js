@@ -39,6 +39,7 @@ let words = {
     `shoot-em-up`,
 		`educational game`,
 		`suicide simulator`,
+		`frogger-style game`
 	],
 	nouns : [
 		`Captain Grammar`,
@@ -111,7 +112,7 @@ let words = {
 		`either Mulder, Scully, or The Noid`,
 		`Frankenstein`,
 		`Dracula`,
-		`Miss Universe`,
+		`Miss Universe`
 	],
 	variations : [
 		`just trying to find your way home`,
@@ -183,6 +184,10 @@ let words = {
 		`but the sound effects get higher pitched randomly`,
 		`and the soundtrack is by Aphex Twin`,
 		`and the motion captured Daniel Day Lewis is disturbing`,
+		`and you have to figure out who is the murderer`,
+		`but which character stole Honest Abe from Mt Rushmore?`,
+		`and the age rating is 18+ for obvious reasons`,
+		`and it's free online for the first month`
 	]
 };
 
