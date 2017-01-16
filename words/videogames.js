@@ -39,7 +39,8 @@ let words = {
     `shoot-em-up`,
 		`educational game`,
 		`suicide simulator`,
-		`frogger-style game`
+		`frogger-style game`,
+		`escort mission game`
 	],
 	nouns : [
 		`Captain Grammar`,
@@ -112,7 +113,8 @@ let words = {
 		`either Mulder, Scully, or The Noid`,
 		`Frankenstein`,
 		`Dracula`,
-		`Miss Universe`
+		`Miss Universe`,
+		`a really big clumsy oaf`
 	],
 	variations : [
 		`just trying to find your way home`,
@@ -187,7 +189,10 @@ let words = {
 		`and you have to figure out who is the murderer`,
 		`but which character stole Honest Abe from Mt Rushmore?`,
 		`and the age rating is 18+ for obvious reasons`,
-		`and it's free online for the first month`
+		`and it's free online for the first month`,
+		`but don't crash into anything or it's all over`,
+		`just generally being clumsy and trashing the place`,
+		`tumbling wildly down the side of a mountain`
 	]
 };
 
