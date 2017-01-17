@@ -132,7 +132,9 @@ let words = {
     `a racing driving`,
     `some sort of wizards`,
     `Batman's butler`,
-    `a non-playable character`
+    `a non-playable character`,
+    `a strong independent woman`,
+    `a honey bee`
 
 	],
 	variations : [
@@ -234,7 +236,9 @@ let words = {
     `trying to stop your bandages from unravelling`,
     `but you keep getting interrupted by the other characters`,
     `from the viewpoint of your lunch`,
-    `but everyone can hear your ideas`
+    `but everyone can hear your ideas`,
+    `on Turbo Island`,
+    `stacking things on top of other things`
 	]
 };
 
