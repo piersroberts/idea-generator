@@ -122,7 +122,17 @@ let words = {
     `a VW Beetle`,
     `a shark`,
     `the Chuckle Brothers`,
-    `a murderer`
+    `a murderer`,
+    `various Band Aid members`,
+    `Scrappy Dappy Doo`,
+    `a junior office manager`,
+    `Donald Strump`,
+    `millennial`,
+    `a boat`,
+    `a racing driving`,
+    `some sort of wizards`,
+    `Batman's butler`
+
 	],
 	variations : [
 		`just trying to find your way home`,
@@ -166,7 +176,6 @@ let words = {
 		` - whoever gets the most points is the winner`,
 		`with glasses`,
 		`and you have to keeping moving or you'll die`,
-		`with glasses`,
 		`and the controls are reversed`,
 		`and it works with a dance mat`,
 		`and the cast of Gorillaz dance along to it`,
@@ -214,7 +223,13 @@ let words = {
     `going round murdering people`,
     `trying to write a rap song`,
     `and Hulk Hogan`,
-    `with a new round of cases from the X-Files`
+    `with a new round of cases from the X-Files`,
+    `during the Irish potato famine`,
+    `but you don't know who you have to fight`,
+    `with subtle variations each time you play`,
+    `in a fight against time`,
+    `for ten seconds`,
+    `totally in the dark`
 	]
 };
 
