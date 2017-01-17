@@ -43,7 +43,12 @@ let words = {
 		`escort mission game`,
     `Apple watch app`,
     `survival sandbox`,
-    `murder simulator`
+    `murder simulator`,
+		`bird watching game`,
+		`'win an ipad!' flash advert`,
+		`online gambling game`,
+		`anime school adventure`,
+		`button mashing beat-em-up`
 	],
   actions : [
     `where you play`,
@@ -141,7 +146,17 @@ let words = {
     `Batman's butler`,
     `a non-playable character`,
     `a strong independent woman`,
-    `a honey bee`
+    `a honey bee`,
+		`one of the Hungry Hungry Hippos`,
+		`a packet of biltong`,
+		`a QWERTY or a DVORAK keyboard`,
+		`Elliot from ET`,
+		`The shark from Jaws`,
+		`the boat from Jaws`,
+		`The Earl of Sandwich`,
+		`the Sex Pistols`,
+		`a bouncy ball`,
+		`a cute personified toaster who shoots toast`
 
 	],
 	variations : [
@@ -245,9 +260,18 @@ let words = {
     `from the viewpoint of your lunch`,
     `but everyone can hear your ideas`,
     `on Turbo Island`,
+    `trying to gather parts for your time machine`,
     `stacking things on top of other things`,
-    `trying to gather parts for your time machine`
-	]
+    `and you can upgrade how far you can jump`,
+		`but make sure you it's not your turn when the timer runs out!`,
+		`when the buzzer goes off the nature of the game gets harder`,
+		`and the final boss is someone you know, and love`,
+		`and there are over 100 different endings`,
+		`but you have to download UPlay`,
+		`and the European version has a unique character - Stalin!`,
+    `that shoots toast`,
+    `and it has all the same music from Friends, including the theme song`
+  ]
 };
 
 module.exports = words;
