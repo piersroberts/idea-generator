@@ -178,6 +178,7 @@ let words = {
 		`trapped in an apartment with a really angry silverback gorilla`,
 		`that must defeat the nazi king`,
 		`on a mission to find where the moon went`,
+		`in a tickling contest`,
 		`and you have to nick this guys truck`,
 		`but the game resets every time you die`,
 		`that speeds up exponentially every five minutes`,
