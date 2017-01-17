@@ -147,7 +147,7 @@ let words = {
     `Donald Strump`,
     `millennial`,
     `a boat`,
-    `a racing driving`,
+    `a racing driver`,
     `some sort of wizards`,
     `Batman's butler`,
     `a non-playable character`,
