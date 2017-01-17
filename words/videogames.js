@@ -276,7 +276,8 @@ let words = {
 		`but you have to download UPlay`,
 		`and the European version has a unique character - Stalin!`,
     `that shoots toast`,
-    `and it has all the same music from Friends, including the theme song`
+    `and it has all the same music from Friends, including the theme song`,
+		`fighting over a tin of beans`
   ]
 };
 
