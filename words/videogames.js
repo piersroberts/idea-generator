@@ -74,6 +74,7 @@ let words = {
 		`Tumble dryer repair man`,
 		`Guybrush Threepwood`,
 		`a tiny farting caterpillar`,
+		`a hanging chad`,
 		`tiny farting caterpillar`,
 		`the entire cast of Seinfeld`,
 		`a nana who has escaped from the retirement home`,
