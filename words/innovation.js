@@ -94,6 +94,7 @@ let words = {
     'hidden',
     'discreet'
   ],
+  actions:[],
   nouns: [
     'webcam',
     'adblocker',

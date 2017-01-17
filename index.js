@@ -31,6 +31,7 @@ alexaApp.launch(function (request, response) {
 function shuffleWords(words){
   return {
     types:words.types.sort(() => 0.5 - Math.random()),
+    actions:words.actions.sort(() => 0.5 - Math.random()),
     nouns:words.nouns.sort(() => 0.5 - Math.random()),
     variations:words.variations.sort(() => 0.5 - Math.random())
   };
@@ -61,7 +62,7 @@ function buildGameIdea(){
     for (i = 0; i < getRandomInt(0, 2); i++) {
     firstPart += words.types[i] + ` `;
   }
-  firstPart += (firstPart ? `` : `game `) + `where you play`;
+  firstPart += (firstPart ? `` : `game `) + words.actions[0];
 
   if(VOWELS.indexOf(firstPart[0]) < 0 ){
     firstPart = 'a '+firstPart+' ';

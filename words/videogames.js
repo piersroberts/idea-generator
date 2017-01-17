@@ -45,6 +45,13 @@ let words = {
     `survival sandbox`,
     `murder simulator`
 	],
+  actions : [
+    `where you play`,
+    `where you control`,
+    `where you try to control`,
+    `and the main character is`,
+    `where you are in charge of`
+  ],
 	nouns : [
 		`Captain Grammar`,
 		`eggs`,
@@ -238,7 +245,8 @@ let words = {
     `from the viewpoint of your lunch`,
     `but everyone can hear your ideas`,
     `on Turbo Island`,
-    `stacking things on top of other things`
+    `stacking things on top of other things`,
+    `trying to gather parts for your time machine`
 	]
 };
 
