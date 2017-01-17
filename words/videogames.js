@@ -173,6 +173,7 @@ let words = {
 	variations : [
 		`just trying to find your way home`,
 		`trying to kill yourself`,
+		`trapped in an apartment with a really angry silverback gorilla`,
 		`that must defeat the nazi king`,
 		`on a mission to find where the moon went`,
 		`but the game resets every time you die`,
@@ -192,6 +193,7 @@ let words = {
 		`that's fun for pets to watch`,
 		`set in the past`,
 		`and it's a murder mystery set in an abandoned Butlins`,
+		`trying to fit an entire roast chicken in their mouth(s)`,
 		`trying to untangle fairy lights`,
 		`evolving and fighting tiny horses`,
 		`with unique weapon crafting process`,
@@ -201,6 +203,9 @@ let words = {
 		`in a reserved Wiltshire village`,
 		`to tie in with the upcoming feature film`,
 		`set in a techno music soundscape`,
+		`trying to get maximum use out of the final square of toilet paper`,
+		`trying to navigate a Black Friday crowd`,
+		`attempting to get to the bathroom in time`,
 		`reviewing restaurants`,
 		`in the bathroom`,
 		`restoring and renovating a hotel`,
@@ -282,10 +287,7 @@ let words = {
 		`and the European version has a unique character - Stalin!`,
     `that shoots toast`,
     `and it has all the same music from Friends, including the theme song`,
-		`fighting over a tin of beans`,
-		`rummaging around in the back of a van looking for fruit`,
-		`just eating and eating and eating`,
-		`mucking about in an attic`
+		`fighting over a tin of beans`
   ]
 };
 
