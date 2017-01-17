@@ -197,6 +197,7 @@ let words = {
 		`set in the past`,
 		`and it's a murder mystery set in an abandoned Butlins`,
 		`trying to fit an entire roast chicken in their mouth(s)`,
+		`and the storyline is adapted from the 1997 manga`,
 		`trying to untangle fairy lights`,
 		`evolving and fighting tiny horses`,
 		`with unique weapon crafting process`,
