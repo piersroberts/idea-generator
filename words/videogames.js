@@ -42,7 +42,8 @@ let words = {
 		`frogger-style game`,
 		`escort mission game`,
     `Apple watch app`,
-    `survival sandbox`
+    `survival sandbox`,
+    `murder simulator`
 	],
 	nouns : [
 		`Captain Grammar`,
@@ -119,7 +120,9 @@ let words = {
 		`a really big clumsy oaf`,
     `all the bad guys`,
     `a VW Beetle`,
-    `a shark`
+    `a shark`,
+    `the Chuckle Brothers`,
+    `a murderer`
 	],
 	variations : [
 		`just trying to find your way home`,
@@ -207,7 +210,11 @@ let words = {
     `in a mech suit`,
     `with huge muscles`,
     `with wheels`,
-    `in an isometric nightmare`
+    `in an isometric nightmare`,
+    `going round murdering people`,
+    `trying to write a rap song`,
+    `and Hulk Hogan`,
+    `with a new round of cases from the X-Files`
 	]
 };
 
