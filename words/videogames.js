@@ -282,7 +282,10 @@ let words = {
 		`and the European version has a unique character - Stalin!`,
     `that shoots toast`,
     `and it has all the same music from Friends, including the theme song`,
-		`fighting over a tin of beans`
+		`fighting over a tin of beans`,
+		`rummaging around in the back of a van looking for fruit`,
+		`just eating and eating and eating`,
+		`mucking about in an attic`
   ]
 };
 
