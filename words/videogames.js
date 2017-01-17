@@ -81,7 +81,11 @@ let words = {
 		`a dirty great big jug of farts`,
 		`a cop who just handed in their badge`,
 		`a grammar nazi`,
+		`Tony the Tiger`,
+		`Coco The Coco Pops Monkey`,
+		`The Honey Monster`,
 		`Tony Hawk`,
+		`Harambe`,
 		`a human ass`,
 		`Wario`,
 		`a delicious steak dinner`,
@@ -104,6 +108,7 @@ let words = {
 		`various historical figures`,
 		`Mr Kipling`,
 		`Lenny Henry`,
+		`Zach Braff's left arm`,
 		`any porn star`,
 		`Clippy`,
 		`snooker players`,
@@ -147,7 +152,7 @@ let words = {
     `Donald Strump`,
     `millennial`,
     `a boat`,
-    `a racing driving`,
+    `a racing driver`,
     `some sort of wizards`,
     `Batman's butler`,
     `a non-playable character`,
@@ -276,7 +281,8 @@ let words = {
 		`but you have to download UPlay`,
 		`and the European version has a unique character - Stalin!`,
     `that shoots toast`,
-    `and it has all the same music from Friends, including the theme song`
+    `and it has all the same music from Friends, including the theme song`,
+		`fighting over a tin of beans`
   ]
 };
 
