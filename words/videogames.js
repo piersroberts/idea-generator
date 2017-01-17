@@ -131,7 +131,8 @@ let words = {
     `a boat`,
     `a racing driving`,
     `some sort of wizards`,
-    `Batman's butler`
+    `Batman's butler`,
+    `a non-playable character`
 
 	],
 	variations : [
@@ -229,7 +230,11 @@ let words = {
     `with subtle variations each time you play`,
     `in a fight against time`,
     `for ten seconds`,
-    `totally in the dark`
+    `totally in the dark`,
+    `trying to stop your bandages from unravelling`,
+    `but you keep getting interrupted by the other characters`,
+    `from the viewpoint of your lunch`,
+    `but everyone can hear your ideas`
 	]
 };
 
